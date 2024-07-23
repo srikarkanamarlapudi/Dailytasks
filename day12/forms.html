@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- forms -- it is used to collect user info or user data and allows user to submit data to the server
+     form tag is used to create the structure
+     form attributes are action and method
+     form elements -- input -->
+     <center><form action="" method="get" style="text-align: left;">
+        <fieldset style=" width: 320px; background-color: papayawhip; text-align: left;">
+            <legend><h1>Employee Details</h1></legend>
+        
+        <label for="username">Emplyee Name:</label>
+        <input type="text" id="username" name="user"> <br> <br>
+        
+        <!-- email -->
+         <label for="mail">Email: &nbsp;&nbsp;</label>
+         <input type="email" name="email" id="mail"><br> <br>
+        
+          <!-- date and time -->
+           <label for="datetime">Date of Birth</label>
+           <input type="datetime-local" name="datetime" id="datetime"> <br><br>
+           <!-- number -->
+           <label for="male">male</label>
+           <input type="radio" name="gender" id="male" value="male">
+           <label for="female">female</label>
+           <input type="radio" name="gender" id="female" value="female"><br><br>
+           <label for="add">Address:</label>
+           <textarea name="address" id="add"></textarea><br> <br>
+           <label for="">phone number</label>
+            <input type="tel" name="" id=""> <br><br>
+           <label for="Education">Education details:</label>
+            <input type="text" id="Education" name="Edu"> <br> <br>
+            <label for="org"> Organization</label>
+            <input type="text" name="org" id="org" ><br><br>
+            <label for="skill">Skills</label>
+            <input type="text" name="skills" id="skill"><br><br>
+            <label for="num">years of experience</label> 
+            <input type="number" name="" id="num"><br> <br>
+            <label for="comm">communication</label>
+            <input type="range" name="" id="comm"><br><br>
+            <label for="">upload resume</label>
+            <input type="file" name="" id=""><br><br>
+            <label for="">upload photo</label>
+            <input type="file" name="" id=""><br><br>
+            
+            <!-- radio buttons-->
+             
+             <label for="">Which webskills u have</label><br> 
+             <label for="ft">frontend</label>
+             <input type="checkbox" name="fds" id="ft" value="frontend">
+             <label for="be">backend</label>
+             <input type="checkbox" name="fds" id="be" value="backend">
+             <label for="fs">fullstack</label>
+             <input type="checkbox" name="fds" id="fs" value="fullstack"> <br><br>
+             <input type="checkbox" name="agree" id="agr" value="agree">
+             <label for="agr">I agree</label><br><br>
+             
+
+             <input type="submit" name="" id="" value="submit">
+             <input type="button" value="">
+             </legend>
+        </fieldset>
+     </form>
+     </center>
+</body>
+</html>
